@@ -1,0 +1,12 @@
+.pz-actions {
+    display: flex;
+    flex-direction: row;
+    a {
+        margin-left: 10px;
+        padding: 4px 10px;
+        background-color: #62b7d8;
+        border-radius: 10px;
+        font-size: 12px;
+        color: #fff;
+    }
+}

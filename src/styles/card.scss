@@ -1,0 +1,56 @@
+.pz-card {
+    padding: 20px;
+    margin: 10px;
+    height: 170px;
+    width: 22%;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .pz-card-icons {
+        padding: 20px;
+        color: #2596be;
+       .pz-card-icon {
+            height: 6em;
+       }
+    }
+    .pz-card-data {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 34px;
+        .pz-card-data-title {
+            font-size: 1.5rem;
+            color: rgb(79, 119, 238);
+        }
+        .pz-card-data-count {
+            font-size: 2.7rem;
+            color: rgb(240, 54, 54);
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .pz-card {
+        width: 45%;
+        .pz-card-icons {
+            .pz-card-icon {
+                height: 4em;
+           }
+        }
+    }
+  }
+  
+@media (max-width: 400px) {
+    .pz-card {
+        width: 100%;
+        .pz-card-icons {
+            .pz-card-icon {
+                height: 5em;
+           }
+        }
+    }
+}
